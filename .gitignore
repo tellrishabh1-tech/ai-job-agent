@@ -1,0 +1,54 @@
+node_modules/
+dist/
+.next/
+.env
+.env.local
+*.log
+.turbo/
+coverage/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# PDF outputs
+*.pdf
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Secrets
+*.env
+!.env.example
+
+# Misc
+RESUMEMAKER.md
+.commandcode/node_modules
+.next
+.venv
+__pycache__
+.env
+.env.local
+*.db
+*.db-shm
+*.db-wal
